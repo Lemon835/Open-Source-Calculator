@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<!-- Its very badly written D: -->
+
+<html>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    <h1 class="Title">Basic Open Source Calculator</h1>
+
+    <div class="Cal">
+        <h1 class="displaytext" id="Display"></h1>
+        <div class="Row">
+            <button class="CalBtn" id="1" onclick="ChangeNumber('1')">1</button>
+            <button class="CalBtn" id="2" onclick="ChangeNumber('2')">2</button>
+            <button class="CalBtn" id="3" onclick="ChangeNumber('3')">3</button>
+        </div>
+        <div class="Row">
+            <button class="CalBtn" id="4" onclick="ChangeNumber('4')">4</button>
+            <button class="CalBtn" id="5" onclick="ChangeNumber('5')">5</button>
+            <button class="CalBtn" id="6" onclick="ChangeNumber('6')">6</button>
+        </div>
+        <div class="Row">
+            <button class="CalBtn" id="7" onclick="ChangeNumber('7')">7</button>
+            <button class="CalBtn" id="8" onclick="ChangeNumber('8')">8</button>
+            <button class="CalBtn" id="9" onclick="ChangeNumber('9')">9</button>
+        </div>
+        <div class="Row">
+            <button class="CalBtn" id="-" onclick="Remove()">-</button>
+            <button class="CalBtn" id="+" onclick="Add()">+</button>
+            <button class="CalBtn" id="=" onclick="Set()">=</button>
+        </div>
+        <div class="Row">
+            <button class="CalBtn" onclick="Clear()">Clear</button>
+        </div>
+    </div>
+
+
+    <p style="position: fixed; bottom: 0; right: 0; margin: 5px; font-size: 16px; color: rgb(0, 0, 0); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+        Made by humans.
+    </p>
+
+</html>

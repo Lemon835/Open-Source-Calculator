@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(177, 177, 177);
+    text-align: center;
+}
+
+.CalBtn{
+    width: 50px;
+    height: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Row{
+    align-items: center;
+}
+
+.Cal{
+    margin-top: 150px;
+}
+
+.displaytext{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.Title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 100px;
+}
